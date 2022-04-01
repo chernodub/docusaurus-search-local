@@ -42,7 +42,7 @@ export function generate(config: ProcessedPluginOptions, dir: string): void {
   }
   if (language.includes("zh")) {
     contents.push(
-      'require("@easyops-cn/docusaurus-search-local/dist/client/shared/lunrLanguageZh").lunrLanguageZh(lunr);'
+      'require("@chernodub/docusaurus-search-local-fork-from-easyops-cn/dist/client/shared/lunrLanguageZh").lunrLanguageZh(lunr);'
     );
   }
   if (language.length > 1) {

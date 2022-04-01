@@ -10,9 +10,8 @@ jobs:
       - uses: GoogleCloudPlatform/release-please-action@v2
         id: release
         with:
-          token: ${{ secrets.GH_TOKEN_EVE }}
           release-type: node
-          package-name: "@easyops-cn/docusaurus-search-local"
+          package-name: "@chernodub/docusaurus-search-local-fork-from-easyops-cn"
           bump-minor-pre-major: true
 
       # The logic below handles the npm publication:
@@ -24,7 +23,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14
-          registry-url: 'https://registry.npmjs.org'
+          registry-url: "https://registry.npmjs.org"
         if: ${{ steps.release.outputs.release_created }}
 
       - name: Get yarn cache directory path

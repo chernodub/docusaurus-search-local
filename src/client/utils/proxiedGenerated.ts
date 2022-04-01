@@ -1,2 +1,2 @@
 // This file is auto generated while building.
-export * from "@generated/@easyops-cn/docusaurus-search-local/default/generated.js";
+export * from "@generated/@chernodub/docusaurus-search-local-fork-from-easyops-cn/default/generated.js";

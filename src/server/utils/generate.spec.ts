@@ -36,7 +36,7 @@ describe("generate", () => {
         expect.stringMatching(
           /^require\(".+\/lunr-languages\/lunr\.stemmer\.support\.js"\)\(lunr\);$/
         ),
-        'require("@easyops-cn/docusaurus-search-local/dist/client/shared/lunrLanguageZh").lunrLanguageZh(lunr);',
+        'require("@chernodub/docusaurus-search-local-fork-from-easyops-cn/dist/client/shared/lunrLanguageZh").lunrLanguageZh(lunr);',
         'export const language = ["zh"];',
         "export const removeDefaultStopWordFilter = false;",
         "export const Mark = null;",
@@ -97,7 +97,7 @@ describe("generate", () => {
         expect.stringMatching(
           /^require\(".+\/lunr-languages\/lunr\.stemmer\.support\.js"\)\(lunr\);$/
         ),
-        'require("@easyops-cn/docusaurus-search-local/dist/client/shared/lunrLanguageZh").lunrLanguageZh(lunr);',
+        'require("@chernodub/docusaurus-search-local-fork-from-easyops-cn/dist/client/shared/lunrLanguageZh").lunrLanguageZh(lunr);',
         expect.stringMatching(
           /^require\(".+\/lunr-languages\/lunr\.multi\.js"\)\(lunr\);$/
         ),
@@ -121,7 +121,7 @@ describe("generate", () => {
         expect.stringMatching(
           /^require\(".+\/lunr-languages\/lunr\.es\.js"\)\(lunr\);$/
         ),
-        'require("@easyops-cn/docusaurus-search-local/dist/client/shared/lunrLanguageZh").lunrLanguageZh(lunr);',
+        'require("@chernodub/docusaurus-search-local-fork-from-easyops-cn/dist/client/shared/lunrLanguageZh").lunrLanguageZh(lunr);',
         expect.stringMatching(
           /^require\(".+\/lunr-languages\/lunr\.multi\.js"\)\(lunr\);$/
         ),

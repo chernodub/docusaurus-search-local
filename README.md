@@ -1,6 +1,6 @@
-# @easyops-cn/docusaurus-search-local
+# @chernodub/docusaurus-search-local-fork-from-easyops-cn
 
-[![Npm Version](https://img.shields.io/npm/v/@easyops-cn/docusaurus-search-local)](https://www.npmjs.com/package/@easyops-cn/docusaurus-search-local)
+[![Npm Version](https://img.shields.io/npm/v/@chernodub/docusaurus-search-local-fork-from-easyops-cn)](https://www.npmjs.com/package/@chernodub/docusaurus-search-local-fork-from-easyops-cn)
 [![CI Status](https://github.com/easyops-cn/docusaurus-search-local/workflows/CI/badge.svg?event=push)](https://github.com/easyops-cn/docusaurus-search-local/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/easyops-cn/docusaurus-search-local/badge.svg?branch=master)](https://coveralls.io/github/easyops-cn/docusaurus-search-local?branch=master)
 
@@ -33,14 +33,14 @@ https://easyops-cn.github.io/docusaurus-search-example/
 ## Installation
 
 ```shell
-npm install --save @easyops-cn/docusaurus-search-local
+npm install --save @chernodub/docusaurus-search-local-fork-from-easyops-cn
 # or
-yarn add @easyops-cn/docusaurus-search-local
+yarn add @chernodub/docusaurus-search-local-fork-from-easyops-cn
 ```
 
 ## Usage
 
-Add `@easyops-cn/docusaurus-search-local` into your docusaurus themes.
+Add `@chernodub/docusaurus-search-local-fork-from-easyops-cn` into your docusaurus themes.
 
 ````js
 // In your `docusaurus.config.js`:
@@ -49,7 +49,9 @@ module.exports = {
   themes: [
     // ... Your other themes.
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
+      require.resolve(
+        "@chernodub/docusaurus-search-local-fork-from-easyops-cn"
+      ),
       {
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
@@ -151,9 +153,9 @@ DEBUG=search-local:* yarn build
 In case some specific errors occurred:
 
 - `Error: Cannot mix different versions of joi schemas`:
-  - Try using @easyops-cn/docusaurus-search-local >= v0.16.0 with Docusaurus >= v2.0.0-alpha.73
-  - Try using @easyops-cn/docusaurus-search-local between v0.14.0 and v0.15.1 with Docusaurus between v2.0.0-alpha.68 and v2.0.0-alpha.72
-  - Or try using @easyops-cn/docusaurus-search-local <= v0.13.1 with Docusaurus <= v2.0.0-alpha.66
+  - Try using @chernodub/docusaurus-search-local-fork-from-easyops-cn >= v0.16.0 with Docusaurus >= v2.0.0-alpha.73
+  - Try using @chernodub/docusaurus-search-local-fork-from-easyops-cn between v0.14.0 and v0.15.1 with Docusaurus between v2.0.0-alpha.68 and v2.0.0-alpha.72
+  - Or try using @chernodub/docusaurus-search-local-fork-from-easyops-cn <= v0.13.1 with Docusaurus <= v2.0.0-alpha.66
 
 ## Further Reading
 
