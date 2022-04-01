@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.24.0](https://www.github.com/chernodub/docusaurus-search-local/compare/v0.23.0...v0.24.0) (2022-04-01)
+
+
+### Features
+
+* add optional explicit hit path ([935d03c](https://www.github.com/chernodub/docusaurus-search-local/commit/935d03c8a780ac89ed18734242b7b7546fabb555))
+
+
+### Bug Fixes
+
+* parse `h1` from the whole `article` ([aeb063a](https://www.github.com/chernodub/docusaurus-search-local/commit/aeb063af9dbac9778e3436aa261e0c131a2ef8c2))
+* update dependencies and add cheerio types ([299bd18](https://www.github.com/chernodub/docusaurus-search-local/commit/299bd1802fdd33ca239c5b2111357ae847702656))
+
 ## [0.23.0](https://www.github.com/easyops-cn/docusaurus-search-local/compare/v0.22.0...v0.23.0) (2022-03-10)
 
 
